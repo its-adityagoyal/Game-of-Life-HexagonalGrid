@@ -97,7 +97,7 @@ Unlike the standard square-grid Life, each cell here is a **hexagon** with six n
 
 Below are sample frames from the simulation:
 
-![Generation 5](Output/output5.png) ![Generation 6](Output/output6.png)
+![Generation 5](Output/output5.png) | ![Generation 6](Output/output6.png)
 
 *(Place additional illustrative images in the `Output/` folder.)*
 
