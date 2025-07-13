@@ -28,8 +28,8 @@ This project implements a variant of Conway's Game of Life on a **hexagonal grid
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/hex-life
-   cd hex-life
+   git clone https://github.com/its-adityagoyal/Game-of-Life-HexagonalGrid.git
+   cd Game-of-Life-HexagonalGrid
    ```
 
 2. (Optional) Create and activate a virtual environment:
@@ -104,13 +104,19 @@ Game-of-Life-HexagonalGrid/
 
 ## Contributing
 
-Contributions are welcome! Please:
+Thank you for your interest in improving **Game‑of‑Life‑HexagonalGrid**! To contribute:
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+2. Create a new branch
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+4. Make your changes and commit
+5. Push to your fork
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+7. Open a Pull Request against main in this repo
 
 ## License
 
