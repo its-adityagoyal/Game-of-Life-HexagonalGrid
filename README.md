@@ -65,7 +65,12 @@ python hex_life.py
 
 In our implementation, each hexagon in the grid is mapped to a 2D array index by projecting its center onto Cartesian coordinates. By computing the row and column offsets (using the hexagon’s radius and the √3/2 vertical spacing), we can translate any hex cell into a (row, col) pair in a regular 2D array.
 
-In our implementation, each hexagon in the grid is mapped to a 2D array index by projecting its center onto Cartesian coordinates.  By computing the row and column offsets (using the hexagon’s radius and the √3/2 vertical spacing), we can translate any hex cell into a (row, col) pair in a regular 2D array.
+### Neighbor Positioning
+
+Neighbors of a hex cell “shift” differently depending on whether the cell sits in an even‑numbered or odd‑numbered row. In the illustration below, you can see:
+
+**Even rows**: neighbors on one side are pushed slightly right  
+**Odd rows**: neighbors on the opposite side are pushed slightly left  
 
 ![Hex Grid to Array Mapping](images/hex_to_array_mapping.png)
 
