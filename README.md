@@ -50,12 +50,12 @@ This project implements a variant of Conway's Game of Life on a **hexagonal grid
 Run the simulation:
 
 ```bash
-python hex_life.py
+python main.py
 ```
 
 * **Draw** initial live cells by **clicking and dragging** with the mouse.
 * Press **S** to **Start** the simulation and **E** to **Exit**.
-* Generated frames will be saved as `output1.png`, `output2.png`,..., etc.
+* Generated frames will be saved as `output1.png`, `output2.png`, etc.
 
 ## Theory
 
