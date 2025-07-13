@@ -9,14 +9,13 @@ A Python implementation of Conway's Game of Life on a hexagonal grid, extended w
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Controls](#controls)
-5. [Theory](#theory)
+4. [Theory](#theory)
    * [Hexagonal Cellular Automaton](#hexagonal-cellular-automaton)
    * [Custom Rules](#custom-rules)
-6. [Visualization](#visualization)
-7. [File Structure](#file-structure)
-8. [Contributing](#contributing)
-9. [License](#license)
+5. [Visualization](#visualization)
+6. [File Structure](#file-structure)
+7. [Contributing](#contributing)
+8. [License](#license)
 
 ---
 
@@ -57,12 +56,6 @@ python hex_life.py
 * **Draw** initial live cells by **clicking and dragging** with the mouse.
 * Press **Space** to **start/pause** the simulation.
 * Generated frames will be saved as `output1.png`, `output2.png`, etc.
-
-## Controls
-
-* **Left Mouse Button**: Toggle cells between alive/dead during the initial setup phase.
-* **Space Bar**: Start or pause the simulation.
-* **Close Window**: Exit the simulation.
 
 ## Theory
 
