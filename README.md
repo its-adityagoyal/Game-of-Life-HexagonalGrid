@@ -59,39 +59,17 @@ python hex_life.py
 
 ## Theory
 
-### Hexagonal Cellular Automaton
+## Theory
 
-Unlike the standard square-grid Life, each cell here is a **hexagon** with six neighbors. The neighbor counting and placement use trigonometry to draw and detect hexagonal tiles.
+### Hexagonal Grid to Array Mapping
 
-### Custom Rules
+In our implementation, each hexagon in the grid is mapped to a 2D array index by projecting its center onto Cartesian coordinates. By computing the row and column offsets (using the hexagon’s radius and the √3/2 vertical spacing), we can translate any hex cell into a (row, col) pair in a regular 2D array.
 
-1. **Underpopulation**
+![Hex Grid to Array Mapping](images/hex_to_array_mapping.png)
 
-   * A live cell with fewer than 2 neighbors dies (underpopulation), subject to Rule 7.
+### Rules
 
-2. **Overpopulation**
-
-   * A live cell with more than 3 neighbors dies (overpopulation), subject to Rule 7.
-
-3. **Survival**
-
-   * A live cell with 2 or 3 neighbors survives.
-
-4. **Reproduction**
-
-   * A dead cell with exactly 3 neighbors becomes alive.
-
-5. **Revival by Aging**
-
-   * A dead cell that has been dead for exactly 6 generations becomes alive regardless of neighbor count.
-
-6. **Random Resurrection**
-
-   * Every 4th generation, one random dead cell is resurrected.
-
-7. **No Repeat Death**
-
-   * A cell’s two successive death events may not share the same cause (underpopulation vs. overpopulation), regardless of how many generations—or births—occur in between.
+All of the custom rules for this hexagonal automaton are defined in [rules.txt](rules.txt).  
 
 ## Visualization
 
