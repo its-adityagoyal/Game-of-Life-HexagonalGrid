@@ -69,7 +69,7 @@ In our implementation, each hexagon in the grid is mapped to a 2D array index by
 
 ### Rules
 
-All of the custom rules for this hexagonal automaton are defined in [rules.txt](rules.txt).  
+All of the custom rules for this hexagonal automaton are defined in [rules.txt](rules.txt)
 
 ## Visualization
 
