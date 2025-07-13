@@ -97,14 +97,14 @@ Unlike the standard square-grid Life, each cell here is a **hexagon** with six n
 
 Below are sample frames from the simulation:
 
+**Generation 6:**
+
+![Gen7](Output/output6.png)
+
 **Generation 7:**
 
-![Gen7](Output/output7.png)
-
-**Generation 8:**
-
-![Gen8](Output/output8.png)
-
+![Gen8](Output/output7.png)
+![](/images/rules-diagram.png)
 
 *(Place additional illustrative images in the `Output/` folder.)*
 
