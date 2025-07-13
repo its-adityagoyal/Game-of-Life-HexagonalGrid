@@ -54,10 +54,8 @@ python hex_life.py
 ```
 
 * **Draw** initial live cells by **clicking and dragging** with the mouse.
-* Press **Space** to **start/pause** the simulation.
-* Generated frames will be saved as `output1.png`, `output2.png`, etc.
-
-## Theory
+* Press **S** to **Start** the simulation and **E** to **Exit**.
+* Generated frames will be saved as `output1.png`, `output2.png`,..., etc.
 
 ## Theory
 
