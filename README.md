@@ -120,13 +120,15 @@ Below are sample frames from the simulation:
 
 ```
 hex-life/
-├── hex_life.py       # Main simulation script
+├── main.py           # Main simulation script
 ├── requirements.txt  # Pinned dependencies
+├── rules.txt         # Custom rules 
 ├── README.md         # Project documentation
-└── images/           # Sample frames and diagrams
-    ├── output7.png
-    ├── output8.png
-    └── rules-diagram.png
+└── Output/           # Sample frames and diagrams
+    ├── output1.png
+    ├── output2.png
+    .
+    .
 ```
 
 ## Contributing
