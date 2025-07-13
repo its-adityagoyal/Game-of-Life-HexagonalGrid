@@ -11,7 +11,7 @@ A Python implementation of Conway's Game of Life on a hexagonal grid, extended w
 3. [Usage](#usage)
 4. [Theory](#theory)
    * [Hexagonal Cellular Automaton](#hexagonal-cellular-automaton)
-   * [Custom Rules](#custom-rules)
+   * [Rules](#rules)
 5. [Visualization](#visualization)
 6. [File Structure](#file-structure)
 7. [Contributing](#contributing)
