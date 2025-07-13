@@ -99,7 +99,7 @@ Below are sample frames from the simulation:
 
 **Generation 7:**
 
-![Gen7](images/output7.png)
+![Gen7](Output/output7.png)
 
 **Generation 8:**
 
