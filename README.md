@@ -103,9 +103,8 @@ Below are sample frames from the simulation:
 
 **Generation 8:**
 
-![Gen8](images/output8.png)
+![Gen8](Output/output8.png)
 
-![](/images/rules-diagram.png)
 
 *(Place additional illustrative images in the `Output/` folder.)*
 
