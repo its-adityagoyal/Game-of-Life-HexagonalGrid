@@ -7,32 +7,22 @@ A Python implementation of Conway's Game of Life on a hexagonal grid, extended w
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Controls](#controls)
-6. [Theory](#theory)
-
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Controls](#controls)
+5. [Theory](#theory)
    * [Hexagonal Cellular Automaton](#hexagonal-cellular-automaton)
    * [Custom Rules](#custom-rules)
-7. [Visualization](#visualization)
-8. [File Structure](#file-structure)
-9. [Contributing](#contributing)
-10. [License](#license)
+6. [Visualization](#visualization)
+7. [File Structure](#file-structure)
+8. [Contributing](#contributing)
+9. [License](#license)
 
 ---
 
 ## Introduction
 
 This project implements a variant of Conway's Game of Life on a **hexagonal grid**, adding mechanics for cell aging, periodic random revivals, and preventing consecutive deaths for the same cause. The simulation is built with **Pygame** for rendering and **NumPy** for efficient array operations.
-
-## Prerequisites
-
-* Python 3.8 or higher
-* NumPy == 2.2.5
-* Pygame == 2.6.1
-
-Ensure you have the required packages installed. See [Installation](#installation).
 
 ## Installation
 
