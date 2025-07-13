@@ -90,7 +90,7 @@ Below are sample frames from the simulation:
 ## File Structure
 
 ```
-hex-life/
+Game-of-Life-HexagonalGrid/
 ├── main.py           # Main simulation script
 ├── requirements.txt  # Pinned dependencies
 ├── rules.txt         # Custom rules 
