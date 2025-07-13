@@ -114,7 +114,7 @@ Below are sample frames from the simulation:
 
 ![](/images/rules-diagram.png)
 
-*(Place additional illustrative images in the `images/` folder.)*
+*(Place additional illustrative images in the `Output/` folder.)*
 
 ## File Structure
 
