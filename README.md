@@ -1,6 +1,6 @@
 # Hexagonal Game of Life
 
-A Python implementation of Conway's Game of Life on a hexagonal grid, extended with custom rules for aging, random resurrection, and no-repeat death causes.
+A Python implementation of Conway's Game of Life on a hexagonal grid, extended with custom rules for aging, random resurrection and no-repeat death causes.
 
 ---
 
@@ -10,7 +10,8 @@ A Python implementation of Conway's Game of Life on a hexagonal grid, extended w
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Theory](#theory)
-   * [Hexagonal Cellular Automaton](#hexagonal-cellular-automaton)
+   * [Hexagonal Grid to Array Mapping](#hexagonal-grid-to-array-mapping)
+   * [Neighbour Positioning](#neighbor-positioning)
    * [Rules](#rules)
 5. [Visualization](#visualization)
 6. [File Structure](#file-structure)
@@ -63,12 +64,12 @@ python main.py
 
 In our implementation, each hexagon in the grid is mapped to a 2D array index by projecting its center onto Cartesian coordinates. By computing the row and column offsets (using the hexagon’s radius and the √3/2 vertical spacing), we can translate any hex cell into a (row, col) pair in a regular 2D array.
 
-### Neighbor Positioning
+### Neighbour Positioning
 
-Neighbors of a hex cell “shift” differently depending on whether the cell sits in an even‑numbered or odd‑numbered row. In the illustration below, you can see:
+Neighbours of a hex cell “shift” differently depending on whether the cell sits in an even‑numbered or odd‑numbered row. In the illustration below, you can see:
 
-**Even rows**: neighbors on one side are pushed slightly right  
-**Odd rows**: neighbors on the opposite side are pushed slightly left  
+**Even rows**: neighbours on one side are pushed slightly right  
+**Odd rows**: neighbours on the opposite side are pushed slightly left  
 
 ![Hex Grid to Array Mapping](images/hex_to_array_mapping.png)
 
@@ -95,14 +96,15 @@ Game-of-Life-HexagonalGrid/
 ├── requirements.txt  # Pinned dependencies
 ├── rules.txt         # Custom rules 
 ├── README.md         # Project documentation
-└── Output/           # Sample frames and diagrams
-    ├── output1.png
-    ├── output2.png
-    .
-    .
+├── Output/           # Sample frames and diagrams
+|   ├── output1.png
+|   ├── output2.png
+|   .
+└── images/           # Images for theory purpose
+    ├── hex_to_array_mapping.png
 ```
 
-## Contributing
+## Contributions
 
 Thank you for your interest in improving **Game‑of‑Life‑HexagonalGrid**! To contribute:
 
